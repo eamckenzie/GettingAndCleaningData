@@ -4,14 +4,18 @@ This README describes how the files in this directory fit together and what the 
 
 ## Files in this directory:
   README.md           = This file, describing the analysis and the files in this directory.
+  
   run_analysis.R      = The R script used for performing the analysis. Takes UCI HAR Dataset.zip,
                         unzipped, in the working directory, as input. Gives UCIHAR_tidy.txt as output.
+                        
   CodeBook.md         = A code book describing variables, dataset, and clean up work performed.
+  
   UCIHAR_tidy.txt     = The tidy dataset submitted on Coursera, output from the R script. Contains the 
                         means of each variable's mean and standard deviation across the observations of 
                         each individual performing each activity. In other words, each row is an 
                         individual performing one activity, and each column is the mean of a single 
                         variable's mean or standard deviation.
+                        
   UCI HAR Dataset.zip = The original data, input to the R script. Contains its own README file.
 
 ## Details of run_analysis.R:
