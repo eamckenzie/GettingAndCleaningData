@@ -99,8 +99,8 @@ for(i in 1:40)
 # Set the types and column names:
 HAR.tidy <- data.frame(HAR.tidy, stringsAsFactors=FALSE)
 colnames(HAR.tidy)[2:80] <- colnames(HAR.ms)[4:82]
-colnames(HAR.tidy$index) <- "subject.activity"
-HAR.tidy$index <- as.factor(HAR.tidy$index)
+colnames(HAR.tidy)[1] <- "subject.activity"
+HAR.tidy$subject.activity <- as.factor(HAR.tidy$subject.activity)
 for(k in 2:80)
 {
   HAR.tidy[,k] <- as.numeric(HAR.tidy[,k])
