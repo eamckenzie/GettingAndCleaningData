@@ -1,5 +1,6 @@
 # GettingAndCleaningData
 For Coursera: Data Science Specialization - course project
+
 This README describes how the files in this directory fit together and what the analysis file does.
 
 ## Files in this directory:
@@ -21,7 +22,9 @@ This README describes how the files in this directory fit together and what the 
 
 ## Details of run_analysis.R:
   Input: Unzipped (decompressed) folder of UCI HAR Dataset
+  
   Output: UCIHAR_tidy.txt, a tidy dataset containing means of variables by individual and activity
+  
   Packages required: stringr
   
   The first section of the script lets you set your working directory if necessary, load libraries, and 
